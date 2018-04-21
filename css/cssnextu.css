@@ -1,0 +1,34 @@
+body{
+	background-color: #02010a;
+}
+#cabecera{
+	background-color: #5b7989;
+	border-radius:10px 10px 0 0;
+}
+#cabecera h1{
+	color:white;
+	text-shadow: #02010a 2px 2px;
+	display:inline-block;
+}
+#cabecera nav{
+	float:right;
+}
+#cabecera nav a{
+	color:white;
+}
+#cabecera nav a.active{
+	text-decoration: none;
+}
+.contenido{
+	margin:auto;
+	width:100%;
+}
+
+@media screen and (min-width:900px){
+
+.contenido{
+	margin:auto;
+	max-width: 900px;
+}
+
+}
